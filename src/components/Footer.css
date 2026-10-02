@@ -1,0 +1,25 @@
+.footer {
+  background: var(--blue);
+  color: rgba(255, 255, 255, 0.85);
+  padding: 36px 0;
+  text-align: center;
+}
+
+.footer-inner {
+  max-width: 700px;
+}
+
+.footer p {
+  margin-bottom: 6px;
+}
+
+.footer-note {
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
+
+.footer-disclaimer {
+  margin-top: 14px;
+  font-size: 0.85rem;
+  color: var(--orange);
+}

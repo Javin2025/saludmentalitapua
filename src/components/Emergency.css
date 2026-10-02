@@ -1,0 +1,54 @@
+.emergency-section {
+  background: #fff5f5;
+}
+
+.emergency-banner {
+  background: var(--white);
+  border: 2px solid #e76f51;
+  border-radius: var(--radius);
+  padding: 36px;
+  box-shadow: var(--shadow);
+}
+
+.emergency-banner h2 {
+  color: #e76f51;
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+}
+
+.emergency-text {
+  color: var(--muted);
+  margin-bottom: 28px;
+  font-size: 1.05rem;
+}
+
+.emergency-lines {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.emergency-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px;
+  border-radius: 10px;
+  background: #fff5f5;
+}
+
+.emergency-icon {
+  font-size: 1.8rem;
+}
+
+.emergency-item strong {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--blue);
+  margin-bottom: 2px;
+}
+
+.emergency-item a {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
